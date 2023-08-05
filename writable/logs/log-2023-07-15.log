@@ -1,0 +1,72 @@
+INFO - 2023-07-15 00:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 00:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 00:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 00:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 00:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 00:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 00:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 00:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 00:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 00:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-15 01:14:24 --> Undefined variable $peminjaman
+in APPPATH\Views\admin\index.php on line 27.
+ 1 APPPATH\Views\admin\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $peminjaman', 'C:\\Users\\divka\\peminjaman_barang-main\\peminjaman_barang-main\\app\\Views\\admin\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\divka\\peminjaman_barang-main\\peminjaman_barang-main\\app\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Controllers\AdminController.php(12): view('admin/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\divka\\peminjaman_barang-main\\peminjaman_barang-main\\public\\index.php')
+CRITICAL - 2023-07-15 01:15:22 --> Undefined variable $index
+in APPPATH\Views\admin\index.php on line 27.
+ 1 APPPATH\Views\admin\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'C:\\Users\\divka\\peminjaman_barang-main\\peminjaman_barang-main\\app\\Views\\admin\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\divka\\peminjaman_barang-main\\peminjaman_barang-main\\app\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Controllers\AdminController.php(12): view('admin/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\divka\\peminjaman_barang-main\\peminjaman_barang-main\\public\\index.php')
+CRITICAL - 2023-07-15 01:15:23 --> Undefined variable $index
+in APPPATH\Views\admin\index.php on line 27.
+ 1 APPPATH\Views\admin\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'C:\\Users\\divka\\peminjaman_barang-main\\peminjaman_barang-main\\app\\Views\\admin\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\divka\\peminjaman_barang-main\\peminjaman_barang-main\\app\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Controllers\AdminController.php(12): view('admin/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\divka\\peminjaman_barang-main\\peminjaman_barang-main\\public\\index.php')
+INFO - 2023-07-15 01:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-15 01:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
